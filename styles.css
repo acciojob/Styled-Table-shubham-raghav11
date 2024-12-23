@@ -1,1 +1,24 @@
 /* your code */
+table{
+	border : 1px solid black;
+	border-collapse : collapse;
+	width : 100%;
+	text-align : left;
+	margin: 20px auto;
+}
+
+th{
+		background-color :#38598b;
+	font-weight: bold;
+}
+tr:nth-child(even) {
+	background-color:#e7eaf6;
+}
+tr:nth-child(odd){
+	background-color :#a2a8d3
+}
+
+tr:hover {
+	background-color:#ffffff;
+	border : 1px solid black;
+}
